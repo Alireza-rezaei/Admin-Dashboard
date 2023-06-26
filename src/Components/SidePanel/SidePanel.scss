@@ -1,0 +1,91 @@
+.sidePanel {
+	position: sticky;
+	flex: 1;
+	height: calc(100vh - 5rem);
+	background-color: rgb(251, 251, 255);
+	overflow: auto;
+	/* Style the scrollbar */
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+	/* Track */
+	&::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+	/* Handle */
+	&::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 5px;
+	}
+	/* Handle on hover */
+	&::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+	/* add animation to the scrollbar */
+	@keyframes scroll {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	::-webkit-scrollbar-thumb {
+		animation: scroll 1s ease-in-out infinite alternate;
+	}
+	&__wrapper {
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-direction: column;
+		color: #555;
+	}
+	&__content {
+		width: 100%;
+		margin-bottom: 0.2rem;
+	}
+	&__title {
+		font-size: 1rem;
+		color: rgb(187, 186, 186);
+		margin: 0.5rem 0;
+	}
+	&__lists {
+		width: 100%;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		flex-direction: column;
+		list-style-type: none;
+		padding: 0 0.5rem;
+		margin-top: 0.2rem;
+		margin-bottom: 0;
+		&--item {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			padding: 0.1rem 0.4rem;
+			border-radius: 1rem;
+			margin: 0.1rem 0;
+			cursor: pointer;
+			&:hover,
+			&.active {
+				background-color: rgb(240, 240, 255);
+				color: #5f38ec;
+			}
+		}
+	}
+	&__link {
+		width: 100%;
+		color: inherit;
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		text-decoration: none;
+	}
+	&__icon {
+		margin-right: 0.3rem;
+	}
+}
