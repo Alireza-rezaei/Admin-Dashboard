@@ -13,4 +13,37 @@ const xAxisData = [
 	{ name: 'Dev', sales: 97_000 },
 ];
 
-export { xAxisData };
+const newMembers = [
+	{
+		id: 1,
+		name: 'Alireza',
+		family: 'Rezaei',
+		job: 'Web Developer',
+		profilePicture: './../../../../public/Profile/Profile.png',
+	},
+	{
+		id: 2,
+		name: 'Zinat',
+		family: 'Rezaei',
+		job: 'Coach',
+		profilePicture: './../../public/Profile/Profile_women.jpg',
+	},
+	{
+		id: 3,
+		name: 'Majid',
+		family: 'Moaedy',
+
+		job: 'Designer',
+		profilePicture: './../../public/Profile/Profile_1.jpg',
+	},
+	{
+		id: 4,
+		name: 'Danw',
+		family: 'Hakimi',
+
+		job: 'Nothing',
+		profilePicture: './../../public/Profile/Profile_2.jpg',
+	},
+];
+
+export { xAxisData, newMembers };

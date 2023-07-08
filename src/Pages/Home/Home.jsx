@@ -2,6 +2,7 @@ import Features from '../../Components/Features/Features';
 import Chart from './../../Components/Chart/Chart';
 import { xAxisData } from '../../Data/Data.js';
 import './Home.scss';
+import WidgetSm from '../../Components/Widgets/WidgetSm/WidgetSm';
 
 export default function Home() {
 	return (
@@ -21,6 +22,9 @@ export default function Home() {
 				xLabel={`name`}
 				grid={true}
 			/>
+			<div className='widgets'>
+				<WidgetSm />
+			</div>
 		</div>
 	);
 }
