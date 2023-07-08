@@ -1,0 +1,13 @@
+.chart {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 2rem;
+	padding: 2rem;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	border-radius: 10px;
+	&__title {
+		font-size: 1.7rem;
+		margin-bottom: 1rem;
+	}
+}
