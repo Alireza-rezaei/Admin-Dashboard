@@ -1,0 +1,58 @@
+.widgetLg {
+	flex: 2;
+	padding: 2rem;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	border-radius: 1rem;
+	&__title {
+		font-size: 2.2rem;
+		font-weight: 600;
+	}
+	&__table {
+		width: 100%;
+		border-spacing: 2rem;
+	}
+	&__th {
+		font-size: 1.3rem;
+	}
+	&__th,
+	td {
+		text-align: center;
+		&--customer {
+			text-align: start;
+			margin-left: 0.5rem;
+			font-size: 1.3rem;
+		}
+	}
+	&__user {
+		display: flex;
+		align-items: center;
+	}
+	&__avatar {
+		width: 4.5rem;
+		height: 4.5rem;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-right: 1rem;
+	}
+	&__date,
+	&__amount {
+		font-weight: 300;
+	}
+	&__button {
+		padding: 0.5rem 0.7rem;
+		border: none;
+		border-radius: 1rem;
+		&--Approved {
+			background-color: #e5faf2;
+			color: #3bbb07;
+		}
+		&--Declined {
+			background-color: #fff0f1;
+			color: #d95087;
+		}
+		&--Pending {
+			background-color: #ebf1fe;
+			color: #2a7ade;
+		}
+	}
+}

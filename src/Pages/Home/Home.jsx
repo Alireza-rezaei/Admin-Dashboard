@@ -3,6 +3,7 @@ import Chart from './../../Components/Chart/Chart';
 import { xAxisData } from '../../Data/Data.js';
 import './Home.scss';
 import WidgetSm from '../../Components/Widgets/WidgetSm/WidgetSm';
+import WidgetLg from '../../Components/Widgets/WidgetLg/WidgetLg';
 
 export default function Home() {
 	return (
@@ -24,6 +25,7 @@ export default function Home() {
 			/>
 			<div className='widgets'>
 				<WidgetSm />
+				<WidgetLg />
 			</div>
 		</div>
 	);

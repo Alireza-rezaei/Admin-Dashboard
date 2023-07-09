@@ -19,14 +19,14 @@ const newMembers = [
 		name: 'Alireza',
 		family: 'Rezaei',
 		job: 'Web Developer',
-		profilePicture: './../../../../public/Profile/Profile.png',
+		profilePicture: 'public/Profile/Profile.png',
 	},
 	{
 		id: 2,
 		name: 'Zinat',
 		family: 'Rezaei',
 		job: 'Coach',
-		profilePicture: './../../public/Profile/Profile_women.jpg',
+		profilePicture: 'public/Profile/Profile_women.jpg',
 	},
 	{
 		id: 3,
@@ -34,7 +34,7 @@ const newMembers = [
 		family: 'Moaedy',
 
 		job: 'Designer',
-		profilePicture: './../../public/Profile/Profile_1.jpg',
+		profilePicture: 'public/Profile/Profile_1.jpg',
 	},
 	{
 		id: 4,
@@ -42,8 +42,43 @@ const newMembers = [
 		family: 'Hakimi',
 
 		job: 'Nothing',
-		profilePicture: './../../public/Profile/Profile_2.jpg',
+		profilePicture: 'public/Profile/Profile_2.jpg',
 	},
 ];
 
-export { xAxisData, newMembers };
+const transActions = [
+	{
+		id: 1,
+		customer: 'Alireza Rezaei',
+		avatar: 'public/Profile/Profile.png',
+		date: '26 jun 2023',
+		amount: 1340,
+		status: 'Approved',
+	},
+	{
+		id: 2,
+		customer: 'Zinat Rezaei',
+		avatar: 'public/Profile/Profile_women.jpg',
+		date: '26 apr 2023',
+		amount: 1200,
+		status: 'Approved',
+	},
+	{
+		id: 3,
+		customer: 'Majid Moaedy',
+		avatar: 'public/Profile/Profile_2.jpg',
+		date: '6 sep 2023',
+		amount: 1130,
+		status: 'Pending',
+	},
+	{
+		id: 4,
+		customer: 'Danw Hakimi',
+		avatar: 'public/Profile/Profile_1.jpg',
+		date: '2 feb 2023',
+		amount: 1210,
+		status: 'Declined',
+	},
+];
+
+export { xAxisData, newMembers, transActions };
