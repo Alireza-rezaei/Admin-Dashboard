@@ -1,7 +1,7 @@
 .widget {
 	flex: 1;
 	padding: 2rem;
-	// margin-right: 2rem;
+	margin-right: 2rem;
 	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 	border-radius: 1rem;
 	&__title {
@@ -19,7 +19,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			margin: 2rem 0;
+			margin: 1.7rem 0;
 		}
 	}
 	&__profile {
@@ -53,5 +53,8 @@
 	}
 	&__icon {
 		font-size: 1.7rem !important;
+		&:hover {
+			color: #6d03d7;
+		}
 	}
 }
