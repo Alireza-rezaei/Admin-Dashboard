@@ -81,4 +81,52 @@ const transActions = [
 	},
 ];
 
-export { xAxisData, newMembers, transActions };
+const userRows = [
+	{
+		id: 1,
+		userName: 'Alireza Rezaei',
+		avatar: './public/Profile/Profile.png',
+		transAction: '$1210',
+		status: 'Active',
+		email: 'Alireza@gmail.com',
+		phone: '+98 910 326 2786',
+	},
+	{
+		id: 2,
+		userName: 'Zinat Rezaei',
+		avatar: './public/Profile/Profile_women.jpg',
+		transAction: '$1390',
+		status: 'Active',
+		email: 'Zinat@gmail.com',
+		phone: '+98 913 333 4321',
+	},
+	{
+		id: 3,
+		userName: 'Majid Moaedy',
+		avatar: './public/Profile/Profile_2.jpg',
+		transAction: '$1230',
+		status: 'Active',
+		email: 'Majid@gmail.com',
+		phone: '+98 913 333 4567',
+	},
+	{
+		id: 4,
+		userName: 'Danw Hakimi',
+		avatar: './public/Profile/Profile_1.jpg',
+		transAction: '$900',
+		status: 'non-Active',
+		email: 'Danw@gmail.com',
+		phone: '+98 913 333 8765',
+	},
+	{
+		id: 5,
+		userName: 'Fatemeh Soltany',
+		avatar: './public/Profile/Profile_women.jpg',
+		transAction: '$500',
+		status: 'non-active',
+		email: 'Fatemeh@gmail.com',
+		phone: '+98 913 333 9932',
+	},
+];
+
+export { xAxisData, newMembers, transActions, userRows };
