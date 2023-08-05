@@ -129,4 +129,33 @@ const userRows = [
 	},
 ];
 
-export { xAxisData, newMembers, transActions, userRows };
+const products = [
+	{ id: 1, productName: 'Laptop Asus rog 1332', price: '$1200', model: 'Asus', avatar: './public/Products/Laptop.jpg' },
+	{ id: 2, productName: 'Headset GBL pro', price: '$900', model: 'GBL', avatar: './public/Products/Headset.jpg' },
+	{ id: 3, productName: 'Apple 14 Pro Max phone', price: '$999.99', model: 'Apple', avatar: './public/Products/Phone.jpg' },
+	{ id: 4, productName: 'Tablet Lenovo 4940g', price: '$1900', model: 'Lenovo', avatar: './public/Products/Tablet.jpg' },
+	{
+		id: 5,
+		productName: 'Computer All in One Apple',
+		price: '$3000',
+		model: 'Apple',
+		avatar: './public/Products/Computer.jpg',
+	},
+];
+
+const productXAxisData = [
+	{
+		name: 'jan',
+		sales: 4000,
+	},
+	{
+		name: 'Feb',
+		sales: 3000,
+	},
+	{
+		name: 'Mar',
+		sales: 5000,
+	},
+];
+
+export { xAxisData, newMembers, transActions, userRows, products, productXAxisData };
